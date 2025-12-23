@@ -11,6 +11,7 @@
     <USeparator />
     <LandingServices />
     <LandingCallToAction />
+    <LandingZoneIntervention />
     <LandingContactForm />
     
     <!-- Footer simple pour l'exemple -->

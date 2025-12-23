@@ -1,33 +1,30 @@
 <script setup lang="ts">
-const links = ref([
+  const links = ref([
   {
-    label: 'Demander un devis',
-    color: 'neutral'
-  },
-  {
-    label: 'En savoir plus',
+    label: 'Parlez-nous de votre projet',
     color: 'neutral',
-    variant: 'subtle',
-    trailingIcon: 'i-lucide-arrow-right'
+    icon: "i-lucide-arrow-right",
+    to: '#contact'
   }
-])
+  ])
 </script>
 
 <template>
   <UPageCTA
-    description="Contactez-nous pour un devis ou pour en savoir plus sur notre service de nettoyage cryogénique."
-    orientation="horizontal"
-    :links="links"
+  description="Contactez-nous pour obtenir un devis personnalisé."
+  orientation="horizontal"
+  :links="links"
+  class="m-12 bg-gray-50 dark:bg-gray-900"
   >
-    <template #title>
-      Optez pour une solution nouvelle et <span class="text-primary">respectueuse de l'environnement</span>
-    </template>
-    <img
-      src="/images/cta.jpg"
-      width="320"
-      height="364"
-      alt="Illustration"
-      class="w-full rounded-lg"
-    />
-  </UPageCTA>
+  <template #title>
+    Optez pour une solution nouvelle et <span class="text-primary">respectueuse de l'environnement</span>
+  </template>
+  <img
+  src="/images/cta.jpg"
+  width="320"
+  height="364"
+  alt="Illustration"
+  class="w-full rounded-lg"
+  />
+</UPageCTA>
 </template>

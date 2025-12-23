@@ -20,7 +20,7 @@
       to="#contact"
       icon="i-lucide-arrow-right"
       label="Parlez-nous de votre projet"
-      class="absolute bottom-15 text-lg"
+      class="absolute bottom-15"
     />
   </UContainer>
 </template>
