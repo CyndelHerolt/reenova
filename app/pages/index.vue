@@ -7,8 +7,10 @@
     -->
       <MenuTopBar />
     <LandingHero />
-    <USeparator />
     <LandingFeatures />
+    <USeparator />
+    <LandingServices />
+    <LandingCallToAction />
     <LandingContactForm />
     
     <!-- Footer simple pour l'exemple -->

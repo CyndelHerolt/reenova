@@ -3,7 +3,7 @@
   <div class="w-full h-[75vh] absolute top-0 left-0 -z-10 mt-16">
     <img src="/images/hero.jpg" alt="Logo" class="w-full h-full object-cover">
   </div>
-  <UContainer :ui="{ constrained: 'max-w-none', padding: 'p-0 sm:p-0' }" class="w-full h-[75vh] flex flex-col items-center justify-center">
+  <UContainer :ui="{ constrained: 'max-w-none', padding: 'p-0 sm:p-0' }" class="w-full h-[75vh] flex flex-col items-center justify-center relative">
     <div class="relative mx-auto max-w-4xl text-center dark:bg-gray-900/80 bg-gray-100/80 z-10 rounded-xl p-10 shadow-lg">
       <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl mb-5">
         Reenova,<span class="text-primary-600 dark:text-primary-400"> votre solution innovante pour le nettoyage des toitures.</span>
@@ -14,5 +14,13 @@
         </p>
       </div>
     </div>
+
+    <UButton
+      color="primary"
+      to="#contact"
+      icon="i-lucide-arrow-right"
+      label="Parlez-nous de votre projet"
+      class="absolute bottom-15 text-lg"
+    />
   </UContainer>
 </template>
