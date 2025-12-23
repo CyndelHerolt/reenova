@@ -24,7 +24,7 @@
   width="320"
   height="364"
   alt="Illustration"
-  class="w-full rounded-lg"
+  class="w-full rounded-lg shadow-md"
   />
 </UPageCTA>
 </template>
