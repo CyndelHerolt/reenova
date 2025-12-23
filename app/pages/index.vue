@@ -5,9 +5,11 @@
       La structure des dossiers définit le nom du composant :
       app/components/landing/Hero.vue devient <LandingHero />
     -->
+      <MenuTopBar />
     <LandingHero />
+    <USeparator />
     <LandingFeatures />
-    <LandingContact />
+    <LandingContactForm />
     
     <!-- Footer simple pour l'exemple -->
     <footer class="py-6 text-center text-gray-500 text-sm">
@@ -17,6 +19,8 @@
 </template>
 
 <script setup lang="ts">
+import TopBar from '~/components/menu/TopBar.vue';
+
 // Toujours aucun import nécessaire !
 // Nuxt détecte automatiquement:
 // - LandingHero -> components/landing/Hero.vue
