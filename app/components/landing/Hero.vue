@@ -9,7 +9,7 @@
         Reenova<span class="text-primary-600 dark:text-primary-600"> la propreté réinventée, naturellement</span>
       </h1>
       <div class="absolute w-full left-0 flex items-center justify-center -bottom-6 sm:-bottom-5 px-4">
-        <p class="text-xs sm:text-lg uppercase text-surface dark:text-neutral-800 font-bold sm:w-fit w-full dark:bg-surface bg-secondary-00 sm:py-2 sm:px-4 py-2 px-3 rounded-lg">
+        <p class="text-xs sm:text-lg uppercase text-surface dark:text-neutral-800 font-bold sm:w-fit w-full dark:bg-surface bg-secondary-800 sm:py-2 sm:px-4 py-2 px-3 rounded-lg">
           Nettoyage cryogénique à base de <span class="text-primary-600">produits naturels.</span>
         </p>
       </div>

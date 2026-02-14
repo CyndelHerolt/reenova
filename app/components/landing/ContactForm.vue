@@ -26,7 +26,7 @@ const handleSubmit = () => {
             <input
               v-model="email"
               type="email"
-              placeholder="Enter your email"
+              placeholder="Saisissez votre email"
               class="block w-full pl-10 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:ring-primary focus:border-primary"
             />
           </div>
@@ -36,11 +36,11 @@ const handleSubmit = () => {
             </div>
             <textarea
               v-model="message"
-              placeholder="Enter your message"
+              placeholder="Rédigez votre message"
               class="block w-full pl-10 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:ring-primary focus:border-primary"
             ></textarea>
           </div>
-          <UButton type="submit" color="neutral" block>
+          <UButton type="submit" color="primary" block>
             Envoyer
           </UButton>
         </form>
