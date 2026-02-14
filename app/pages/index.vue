@@ -15,7 +15,7 @@
     <LandingContactForm />
     
     <!-- Footer simple pour l'exemple -->
-    <footer class="py-6 text-center text-gray-500 text-sm">
+    <footer class="py-6 text-center text-neutral-500 text-sm">
       &copy; {{ currentYear }} Reenova. Tous droits réservés.
     </footer>
   </div>

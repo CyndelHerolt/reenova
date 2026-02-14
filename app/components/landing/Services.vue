@@ -74,13 +74,13 @@
 </script>
 
 <template>
-  <UContainer class="py-12 sm:py-24 px-4 sm:px-0 h-1/4">
+  <UContainer class="py-12 sm:py-24 px-4 sm:px-0 h-1/4" id="services">
     <div class="mx-auto text-center flex flex-col gap-8 sm:gap-12">
       <div>
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+        <h2 class="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
           Nos projets de nettoyage
         </h2>
-        <p class="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
+        <p class="mt-2 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
           Quelques exemples de projets que nous avons réalisés
         </p>
       </div>
@@ -121,10 +121,10 @@
     </UCarousel>
     <USeparator />
     <div>
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+      <h2 class="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
         Le nettoyage cryogénique en action
       </h2>
-      <p class="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
+      <p class="mt-2 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
         À quoi ressemble une intervention cryogénique ?
       </p>
     </div>

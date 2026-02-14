@@ -1,2 +1,62 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+  --color-primary-50: #f0fcfd;
+  --color-primary-100: #d9f7fa;
+  --color-primary-200: #b7eff6;
+  --color-primary-300: #84e4f0;
+  --color-primary-400: #48d1e5;
+  --color-primary-500: #23b3d0;
+  --color-primary-600: #009BB6;
+  --color-primary-700: #157e95;
+  --color-primary-800: #19667a;
+  --color-primary-900: #1a5566;
+  --color-primary-950: #0d3844;
+
+  --color-secondary-50: #f0f4fd;
+  --color-secondary-100: #dde6fa;
+  --color-secondary-200: #c1d2f6;
+  --color-secondary-300: #99b6ef;
+  --color-secondary-400: #6d94e7;
+  --color-secondary-500: #466fdc;
+  --color-secondary-600: #24376C;
+  --color-secondary-700: #1d2c56;
+  --color-secondary-800: #192648;
+  --color-secondary-900: #17223c;
+  --color-secondary-950: #0f1627;
+
+  --color-tertiary-50: #effefb;
+  --color-tertiary-100: #cbfbf4;
+  --color-tertiary-200: #99f6ea;
+  --color-tertiary-300: #5eeddb;
+  --color-tertiary-400: #2bd6c5;
+  --color-tertiary-500: #10baaa;
+  --color-tertiary-600: #00AC90;
+  --color-tertiary-700: #067c69;
+  --color-tertiary-800: #0a6255;
+  --color-tertiary-900: #0d5147;
+  --color-tertiary-950: #042d28;
+
+  --color-neutral-50: #f7f7f7;
+  --color-neutral-100: #e5e5e5;
+  --color-neutral-200: #d1d1d0;
+  --color-neutral-300: #b0b0af;
+  --color-neutral-400: #888887;
+  --color-neutral-500: #666665;
+  --color-neutral-600: #4a4a49;
+  --color-neutral-700: #3c3c3b;
+  --color-neutral-800: #1D1D1B;
+  --color-neutral-900: #181817;
+  --color-neutral-950: #0d0d0c;
+  
+  --color-surface: #f8fafc;
+  --color-surface-dark: #1e293b;
+}
+
+:root {
+  --color-primary: var(--color-primary-600);
+  --color-secondary: var(--color-secondary-600);
+  --color-tertiary: var(--color-tertiary-600);
+  --color-neutral: var(--color-neutral-800);
+}

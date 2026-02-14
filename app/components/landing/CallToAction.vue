@@ -14,7 +14,7 @@
   description="Contactez-nous pour obtenir un devis personnalisé."
   orientation="horizontal"
   :links="links"
-  class="m-4 sm:m-12 bg-gray-50 dark:bg-gray-900"
+  class="m-4 sm:m-12 bg-neutral-50 dark:bg-secondary-950"
   >
   <template #title>
     Optez pour une solution nouvelle et <span class="text-primary">respectueuse de l'environnement</span>

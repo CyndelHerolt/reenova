@@ -44,19 +44,19 @@ const advantages = [
 <template>
   <UContainer class="py-24 sm:py-12 h-1/4">
     <div class="flex flex-col gap-12 items-center justify-center">
-      <p class="border-2 border-gray-200 py-2 px-4 rounded-full font-medium flex items-center gap-2 text-xs sm:text-base">  <UIcon name="i-lucide-circle" class="size-2" />Qu'est-ce que le nettoyage cryogénique ?</p>
-      <p class="text-lg sm:text-2xl text-gray-600 dark:text-gray-300 sm:px-12 px-2 text-center">C'est une méthode révolutionnaire pour éliminer les mousses, lichens, algues et autres salissures tenaces sur les toitures, sans produits chimiques ni abrasion mécanique. Cette technique utilise de la glace carbonique (CO₂ solide) projetée à haute pression pour décoller et évacuer les dépôts indésirables, tout en préservant l’intégrité des matériaux.</p>
+      <p class="border-2 border-neutral-200 py-2 px-4 rounded-full font-medium flex items-center gap-2 text-xs sm:text-base">  <UIcon name="i-lucide-circle" class="size-2" />Qu'est-ce que le nettoyage cryogénique ?</p>
+      <p class="text-lg sm:text-2xl text-neutral-600 dark:text-neutral-300 sm:px-12 px-2 text-center">C'est une méthode révolutionnaire pour éliminer les mousses, lichens, algues et autres salissures tenaces sur les toitures, sans produits chimiques ni abrasion mécanique. Cette technique utilise de la glace carbonique (CO₂ solide) projetée à haute pression pour décoller et évacuer les dépôts indésirables, tout en préservant l’intégrité des matériaux.</p>
     </div>
   </UContainer>
   <USeparator />
-  <div id="features" class="py-12 sm:py-32 bg-gray-50 dark:bg-gray-900 flex flex-col gap-24 sm:gap-12">
+  <div id="features" class="py-12 sm:py-32 bg-neutral-50 dark:bg-secondary-950 flex flex-col gap-24 sm:gap-12">
     <UContainer>
       <div class="mx-auto text-center flex flex-col gap-8 sm:gap-12 px-4 sm:px-0">
         <div>
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+          <h2 class="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
             Comment ça marche ?
           </h2>
-          <p class="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
+          <p class="mt-2 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
             C'est un processus simple qui s'appuie sur des réactions physiques naturelles
           </p>
         </div>
@@ -72,11 +72,11 @@ const advantages = [
                 {{ index + 1 }}
               </div>
               
-              <h3 class="font-bold text-xl text-gray-900 dark:text-white">
+              <h3 class="font-bold text-xl text-neutral-900 dark:text-white">
                 {{ step.title }}
               </h3>
               
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-neutral-600 dark:text-neutral-300">
                 {{ step.description }}
               </p>
             </div>
@@ -87,10 +87,10 @@ const advantages = [
     <UContainer>
       <div class="mx-auto text-center flex flex-col gap-12">
         <div>
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+          <h2 class="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
             Avantages du nettoyage cryogénique
           </h2>
-          <p class="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
+          <p class="mt-2 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
             Cette méthode innovante allie performance et durabilité, pour une toiture impeccable et protégée sur le long terme.
           </p>
         </div>
@@ -105,7 +105,7 @@ const advantages = [
                 {{ advantage.title }}
               </h3>
               
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-neutral-600 dark:text-neutral-300">
                 {{ advantage.description }}
               </p>
             </div>
