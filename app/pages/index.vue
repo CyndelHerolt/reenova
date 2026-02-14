@@ -16,13 +16,16 @@
     
     <!-- Footer simple pour l'exemple -->
     <footer class="py-6 text-center text-gray-500 text-sm">
-      &copy; {{ new Date().getFullYear() }} Reenova. Tous droits réservés.
+      &copy; {{ currentYear }} Reenova. Tous droits réservés.
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
 import TopBar from '~/components/menu/TopBar.vue';
+
+// Computed property pour éviter les problèmes d'hydratation
+const currentYear = new Date().getFullYear();
 
 // Toujours aucun import nécessaire !
 // Nuxt détecte automatiquement:

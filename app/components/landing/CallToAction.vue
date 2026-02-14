@@ -2,7 +2,7 @@
   const links = ref([
   {
     label: 'Parlez-nous de votre projet',
-    color: 'neutral',
+    color: 'neutral' as const,
     icon: "i-lucide-arrow-right",
     to: '#contact'
   }
@@ -14,17 +14,19 @@
   description="Contactez-nous pour obtenir un devis personnalisé."
   orientation="horizontal"
   :links="links"
-  class="m-12 bg-gray-50 dark:bg-gray-900"
+  class="m-4 sm:m-12 bg-gray-50 dark:bg-gray-900"
   >
   <template #title>
     Optez pour une solution nouvelle et <span class="text-primary">respectueuse de l'environnement</span>
   </template>
-  <img
-  src="/images/cta.jpg"
-  width="320"
-  height="364"
-  alt="Illustration"
-  class="w-full rounded-lg shadow-md"
-  />
+  <template #default>
+    <img
+      src="/images/cta.jpg"
+      width="320"
+      height="364"
+      alt="Illustration"
+      class="w-full max-w-xs sm:max-w-sm rounded-lg shadow-md"
+    />
+  </template>
 </UPageCTA>
 </template>

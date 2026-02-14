@@ -18,17 +18,32 @@ const handleSubmit = () => {
           Prêt à démarrer ? Envoyez-nous un message.
         </p>
         
-        <div class="space-y-4">
-            <UInput v-model="email" placeholder="Enter your email">
-              <template #leading>
-                <UIcon name="i-lucide-at-sign" class="w-5 h-5 text-gray-500" />
-              </template>
-            </UInput>
-            <UTextarea v-model="message" placeholder="Enter your message" />
-            <UButton @click="handleSubmit" block color="neutral">
-              Envoyer
-            </UButton>
-        </div>
+        <form @submit.prevent="handleSubmit" class="mt-10 max-w-xl mx-auto space-y-4">
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <UIcon name="i-lucide-at-sign" class="w-5 h-5 text-gray-400" />
+            </div>
+            <input
+              v-model="email"
+              type="email"
+              placeholder="Enter your email"
+              class="block w-full pl-10 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:ring-primary focus:border-primary"
+            />
+          </div>
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <UIcon name="i-lucide-message-circle" class="w-5 h-5 text-gray-400" />
+            </div>
+            <textarea
+              v-model="message"
+              placeholder="Enter your message"
+              class="block w-full pl-10 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:ring-primary focus:border-primary"
+            ></textarea>
+          </div>
+          <UButton type="submit" color="neutral" block>
+            Envoyer
+          </UButton>
+        </form>
       </div>
     </UContainer>
   </div>
